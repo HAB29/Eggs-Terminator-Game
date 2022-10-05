@@ -7,15 +7,13 @@ let letterBtns = document.querySelectorAll('.letter');
 letterBtns.forEach(letter=>letter.addEventListener("click", letterClicked))
 
 let guesses = document.querySelector("#guesses")
-
-let words = ['SARAH','HESSA','MAI', "MARAM" , "NOOR"]
+let words = ['KAREEM','ALEX','TAYLOR', "AHLAM" , "TAHER",'NAHEED']
 let lineContainer = document.querySelector('.line-container')
 let eggNum = 1
 let randomWord = words[Math.floor(Math.random() * words.length)]
 
 randomWord.toUpperCase().split('').forEach(letter => {
     let line = document.createElement('div')
-    // line.id=`${index}`
     line.classList.add('line')
     line.innerText = '_'
     lineContainer.appendChild(line)    
@@ -68,10 +66,5 @@ function letterClicked (e){
             
 
     }
+  
 }
-
-// playAgain.addEventListener("click", restartGame)
-//  function restartGame () {
-//     let playAgain = document.querySelector(".playAgain")
-
-
