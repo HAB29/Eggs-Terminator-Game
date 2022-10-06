@@ -1,6 +1,5 @@
  //( 1)
  
-
 //we get the html elements
 
  //  to active the click letters
@@ -74,7 +73,7 @@ function letterClicked (e){
         } else {
             eggNum++
         }
-        guesses.innerText = `${6- eggNum}`
+        guesses.innerText = `${7- eggNum}`
             
 
     }

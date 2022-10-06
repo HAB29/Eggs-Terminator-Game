@@ -13,7 +13,7 @@ is a Hangman game! But in a different way 😎
 6. Show the player their progress.
 7. Finish when the player has guessed the word.
 
-For example, if the word were HAPPY, the first player
+For example, if the word was HAPPY, the first player
 would write:
 _ _ _ _ _
 
@@ -37,6 +37,8 @@ player guesses the word, the
 guessing player loses. ☹️
 
 # A link to the deployed live site
+
+Your site is live at https://hab29.github.io/Eggs-Terminator-Game/
 
 # the approach taken
 Css , Dom Manipulation ,If Condition , Javascript
